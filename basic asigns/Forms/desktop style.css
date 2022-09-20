@@ -1,0 +1,32 @@
+h1{
+    margin: 10px;
+    padding: 20px;
+}
+section{
+    display: flex;
+    gap: 5%;
+
+}
+.main,.main1{
+    width: 100%;
+}
+
+.border{
+    border-bottom: 1px  solid black;
+}
+
+.a1,.d1{
+    margin: 10px;
+    padding: 2px;
+}
+
+
+#Item1, #Item2, #Item3{
+   margin-left: 10px;
+}
+#city,#state{
+    margin-left: 10px;
+}
+#quote{
+    background-color: blue;
+}

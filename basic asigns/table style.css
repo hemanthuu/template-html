@@ -1,0 +1,15 @@
+caption{
+    
+}
+table,th,tr,td{
+    border: 5px solid blue;
+    
+
+}
+
+.row2 table, .row2 table th, .row2 table td{
+    border: none;
+}
+.head2{
+    text-align: start;
+}

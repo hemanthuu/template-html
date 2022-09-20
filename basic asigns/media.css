@@ -1,0 +1,70 @@
+ *{
+    
+    margin: 0px;
+    list-style-type:none;
+    text-decoration: none;
+    
+ }
+  header {
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 1em;
+ }
+ 
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    padding: 5px
+    
+   
+}
+nav ul li {
+    align-content: center;
+}
+.matter_img img{
+    width: 100%;
+}
+
+.child1 p,.child2 p{
+    margin: 10px;
+}
+.parent{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.child1{
+    width: 100%;
+}
+/* ipad devices */
+@media  (min-width:650px){
+   .parent{
+    display: flex;
+    
+   
+}
+.child1{
+    flex-basis: 50%;
+}
+.matter_img {
+    margin: 10px;
+}
+}
+
+@media(min-width: 850px) {
+    .child1 {
+        flex-basis: 33.33%
+    }
+}
+
+@media(min-width: 1300px) {
+    .parent {}
+
+    .child1 {
+        flex-basis: 25%;
+    }
+}
+/* ipad mini */
