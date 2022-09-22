@@ -76,29 +76,16 @@ i{
     font-size: 40px;
     margin-top: 30px;
 }
-/* .icons{
-    display: flex;
-    /* flex-wrap: wrap; 
 
-}
-.single-icon{
-   width: 20%;
-}
-.single-icon img{
-    width: 70%;
-    /* margin-left: 85px; 
-    background-color: lightgreen;
-    border-radius: 90px;
-    padding:10px;
-} */
 .icons{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     
 }
 .icon-col{
-    border: 2px solid red;
+    margin-bottom: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -140,36 +127,18 @@ i{
 .fit img{
     width: 100%;
 }
-.contact{
-    text-align: center;
-    background-color: lightgray;
-    padding: 30px;
-    color: black;
 
-}
-.side{
-    display: flex;
+.contact{
+    margin-bottom: 90px;
 }
 .side1{
-   
-    align-items: center;
-
+    
 }
-
-
-
-
-
-
-
-
-
-
 footer{
     color: whitesmoke;
     background-color: rgb(40, 15, 162);
     align-items: center;
     height: 100px;
-    
+    margin-bottom: 20px;
 
 }
